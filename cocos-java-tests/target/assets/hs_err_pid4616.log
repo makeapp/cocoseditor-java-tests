@@ -1,0 +1,311 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x6958eae4, pid=4616, tid=4816
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0-b132) (build 1.8.0-b132)
+# Java VM: Java HotSpot(TM) Client VM (25.0-b70 mixed mode windows-x86 )
+# Problematic frame:
+# C  [cocosjava.dll+0x57eae4]
+#
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00e1c000):  JavaThread "main" [_thread_in_native, id=4816, stack(0x026f0000,0x02740000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0xddddde21
+
+Registers:
+EAX=0x198c38e8, EBX=0x14f26718, ECX=0x198c38e8, EDX=0xdddddddd
+ESP=0x0273e054, EBP=0x0273e168, ESI=0x0273e054, EDI=0x0273e158
+EIP=0x6958eae4, EFLAGS=0x00210206
+
+Top of Stack: (sp=0x0273e054)
+0x0273e054:   dd53f7b0 00e1c000 14f26718 14f26718
+0x0273e064:   cccccccc cccccccc cccccccc cccccccc
+0x0273e074:   cccccccc cccccccc cccccccc cccccccc
+0x0273e084:   cccccccc cccccccc cccccccc cccccccc
+0x0273e094:   cccccccc cccccccc cccccccc cccccccc
+0x0273e0a4:   cccccccc cccccccc cccccccc cccccccc
+0x0273e0b4:   cccccccc cccccccc cccccccc cccccccc
+0x0273e0c4:   cccccccc cccccccc cccccccc cccccccc 
+
+Instructions: (pc=0x6958eae4)
+0x6958eac4:   27 e4 69 f3 0f 11 45 dc c7 45 d0 00 00 00 00 c7
+0x6958ead4:   45 fc 00 00 00 00 8b f4 8b 45 e8 8b 10 8b 4d e8
+0x6958eae4:   8b 42 44 ff d0 3b f4 e8 45 29 f4 ff d9 9d fc fe
+0x6958eaf4:   ff ff f3 0f 10 85 fc fe ff ff f3 0f 11 45 c4 f3 
+
+
+Register to memory mapping:
+
+EAX=0x198c38e8 is an unknown value
+EBX=0x14f26718 is an unknown value
+ECX=0x198c38e8 is an unknown value
+EDX=0xdddddddd is an unknown value
+ESP=0x0273e054 is pointing into the stack for thread: 0x00e1c000
+EBP=0x0273e168 is pointing into the stack for thread: 0x00e1c000
+ESI=0x0273e054 is pointing into the stack for thread: 0x00e1c000
+EDI=0x0273e158 is pointing into the stack for thread: 0x00e1c000
+
+
+Stack: [0x026f0000,0x02740000],  sp=0x0273e054,  free space=312k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [cocosjava.dll+0x57eae4]
+j  org.ccj.d2.Node.getScale()F+0
+j  org.ccj.PhysicsTestScene$PhysicsDemoPyramidStack$2.onUpdate(F)V+13
+j  org.ccj.Scheduler$SchedulerCallback.call(F)V+2
+v  ~StubRoutines::call_stub
+V  [jvm.dll+0x142285]
+V  [jvm.dll+0x2070be]
+V  [jvm.dll+0x14231e]
+V  [jvm.dll+0xce951]
+V  [jvm.dll+0xd1a3c]
+C  [cocosjava.dll+0x51ba52]
+C  [cocosjava.dll+0x52e0c5]
+C  [cocosjava.dll+0x6779df]
+C  [cocosjava.dll+0x67782a]
+C  [cocosjava.dll+0x6780b0]
+C  [cocosjava.dll+0x66dc29]
+C  [cocosjava.dll+0x66fb30]
+C  [cocosjava.dll+0x66998f]
+C  [cocosjava.dll+0x544909]
+j  org.ccj.Application.run()I+0
+j  org.ccj.TestMain.main([Ljava/lang/String;)V+51
+v  ~StubRoutines::call_stub
+V  [jvm.dll+0x142285]
+V  [jvm.dll+0x2070be]
+V  [jvm.dll+0x14231e]
+V  [jvm.dll+0x14e73a]
+V  [jvm.dll+0x14e993]
+V  [jvm.dll+0xf2b03]
+C  [java.dll+0x3a6e]
+j  sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+100
+j  sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+6
+j  java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+56
+j  com.intellij.rt.execution.application.AppMain.main([Ljava/lang/String;)V+163
+v  ~StubRoutines::call_stub
+V  [jvm.dll+0x142285]
+V  [jvm.dll+0x2070be]
+V  [jvm.dll+0x14231e]
+V  [jvm.dll+0xce717]
+V  [jvm.dll+0xd6cbf]
+C  [java.exe+0x20cb]
+C  [java.exe+0xab61]
+C  [java.exe+0xabeb]
+C  [KERNEL32.DLL+0x1919f]
+C  [ntdll.dll+0x4a22b]
+C  [ntdll.dll+0x4a201]
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  org.ccj.d2.Node.getScale()F+0
+j  org.ccj.PhysicsTestScene$PhysicsDemoPyramidStack$2.onUpdate(F)V+13
+j  org.ccj.Scheduler$SchedulerCallback.call(F)V+2
+v  ~StubRoutines::call_stub
+j  org.ccj.Application.run()I+0
+j  org.ccj.TestMain.main([Ljava/lang/String;)V+51
+v  ~StubRoutines::call_stub
+j  sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+0
+j  sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+100
+j  sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+6
+j  java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+56
+j  com.intellij.rt.execution.application.AppMain.main([Ljava/lang/String;)V+163
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x1526c400 JavaThread "Monitor Ctrl-Break" daemon [_thread_in_native, id=3992, stack(0x157d0000,0x15820000)]
+  0x15214000 JavaThread "Service Thread" daemon [_thread_blocked, id=7876, stack(0x156b0000,0x15700000)]
+  0x151f8c00 JavaThread "C1 CompilerThread0" daemon [_thread_blocked, id=4128, stack(0x15620000,0x15670000)]
+  0x151f8000 JavaThread "Attach Listener" daemon [_thread_blocked, id=792, stack(0x15590000,0x155e0000)]
+  0x151c9000 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=2936, stack(0x15500000,0x15550000)]
+  0x151a5400 JavaThread "Finalizer" daemon [_thread_blocked, id=4684, stack(0x15470000,0x154c0000)]
+  0x02bae400 JavaThread "Reference Handler" daemon [_thread_blocked, id=7216, stack(0x153e0000,0x15430000)]
+=>0x00e1c000 JavaThread "main" [_thread_in_native, id=4816, stack(0x026f0000,0x02740000)]
+
+Other Threads:
+  0x02baac00 VMThread [stack: 0x15150000,0x151a0000] [id=5612]
+  0x15220800 WatcherThread [stack: 0x15740000,0x15790000] [id=3700]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ def new generation   total 4928K, used 3226K [0x04c00000, 0x05150000, 0x0a150000)
+  eden space 4416K,  73% used [0x04c00000, 0x04f26898, 0x05050000)
+  from space 512K,   0% used [0x05050000, 0x05050000, 0x050d0000)
+  to   space 512K,   0% used [0x050d0000, 0x050d0000, 0x05150000)
+ tenured generation   total 10944K, used 0K [0x0a150000, 0x0ac00000, 0x14c00000)
+   the space 10944K,   0% used [0x0a150000, 0x0a150000, 0x0a150200, 0x0ac00000)
+ Metaspace       used 2479K, capacity 2568K, committed 2624K, reserved 4480K
+
+Card table byte_map: [0x14c00000,0x14c90000] byte_map_base: 0x14bda000
+
+Polling page: 0x00dd0000
+
+CodeCache: size=32768Kb used=761Kb max_used=761Kb free=32006Kb
+ bounds [0x02bb0000, 0x02c70000, 0x04bb0000]
+ total_blobs=213 nmethods=58 adapters=87
+ compilation: enabled
+
+Compilation events (10 events):
+Event: 9.388 Thread 0x151f8c00   54             java.lang.StringBuilder::toString (17 bytes)
+Event: 9.388 Thread 0x151f8c00 nmethod 54 0x02c6aec8 code [0x02c6afd0, 0x02c6b0bc]
+Event: 9.431 Thread 0x151f8c00   55             sun.misc.FDBigInteger::mult (64 bytes)
+Event: 9.431 Thread 0x151f8c00 nmethod 55 0x02c6b288 code [0x02c6b380, 0x02c6b530]
+Event: 9.439 Thread 0x151f8c00   56             java.util.ArrayList::size (5 bytes)
+Event: 9.439 Thread 0x151f8c00 nmethod 56 0x02c6b8c8 code [0x02c6b9c0, 0x02c6ba40]
+Event: 9.477 Thread 0x151f8c00   57             java.lang.ref.Reference::<init> (25 bytes)
+Event: 9.477 Thread 0x151f8c00 nmethod 57 0x02c6be48 code [0x02c6bf40, 0x02c6bff0]
+Event: 10.338 Thread 0x151f8c00   58  s!         sun.misc.URLClassPath::getLoader (154 bytes)
+Event: 10.340 Thread 0x151f8c00 nmethod 58 0x02c6c048 code [0x02c6c2b0, 0x02c6d478]
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (10 events):
+Event: 9.380 Thread 0x00e1c000 Exception <a 'java/security/PrivilegedActionException'> (0x04eb8020) thrown at [D:\re\workspace\8-2-build-windows-i586-cygwin\jdk8\2238\hotspot\src\share\vm\prims\jvm.cpp, line 1248]
+Event: 9.381 Thread 0x00e1c000 Exception <a 'java/security/PrivilegedActionException'> (0x04eba8d0) thrown at [D:\re\workspace\8-2-build-windows-i586-cygwin\jdk8\2238\hotspot\src\share\vm\prims\jvm.cpp, line 1248]
+Event: 9.393 Thread 0x00e1c000 Exception <a 'java/security/PrivilegedActionException'> (0x04ee2568) thrown at [D:\re\workspace\8-2-build-windows-i586-cygwin\jdk8\2238\hotspot\src\share\vm\prims\jvm.cpp, line 1248]
+Event: 9.426 Thread 0x00e1c000 Exception <a 'java/security/PrivilegedActionException'> (0x04ee5280) thrown at [D:\re\workspace\8-2-build-windows-i586-cygwin\jdk8\2238\hotspot\src\share\vm\prims\jvm.cpp, line 1248]
+Event: 9.429 Thread 0x00e1c000 Exception <a 'java/security/PrivilegedActionException'> (0x04eec010) thrown at [D:\re\workspace\8-2-build-windows-i586-cygwin\jdk8\2238\hotspot\src\share\vm\prims\jvm.cpp, line 1248]
+Event: 9.432 Thread 0x00e1c000 Exception <a 'java/security/PrivilegedActionException'> (0x04ef7570) thrown at [D:\re\workspace\8-2-build-windows-i586-cygwin\jdk8\2238\hotspot\src\share\vm\prims\jvm.cpp, line 1248]
+Event: 9.433 Thread 0x00e1c000 Exception <a 'java/security/PrivilegedActionException'> (0x04ef98a0) thrown at [D:\re\workspace\8-2-build-windows-i586-cygwin\jdk8\2238\hotspot\src\share\vm\prims\jvm.cpp, line 1248]
+Event: 9.439 Thread 0x00e1c000 Exception <a 'java/security/PrivilegedActionException'> (0x04eff950) thrown at [D:\re\workspace\8-2-build-windows-i586-cygwin\jdk8\2238\hotspot\src\share\vm\prims\jvm.cpp, line 1248]
+Event: 10.338 Thread 0x00e1c000 Exception <a 'java/security/PrivilegedActionException'> (0x04f1bb10) thrown at [D:\re\workspace\8-2-build-windows-i586-cygwin\jdk8\2238\hotspot\src\share\vm\prims\jvm.cpp, line 1248]
+Event: 10.338 Thread 0x00e1c000 Exception <a 'java/security/PrivilegedActionException'> (0x04f1ecb0) thrown at [D:\re\workspace\8-2-build-windows-i586-cygwin\jdk8\2238\hotspot\src\share\vm\prims\jvm.cpp, line 1248]
+
+Events (10 events):
+Event: 9.440 loading class java/lang/Math$RandomNumberGeneratorHolder
+Event: 9.440 loading class java/lang/Math$RandomNumberGeneratorHolder done
+Event: 9.440 loading class java/util/Random
+Event: 9.440 loading class java/util/Random done
+Event: 9.440 loading class java/util/concurrent/atomic/AtomicLong
+Event: 9.440 loading class java/util/concurrent/atomic/AtomicLong done
+Event: 10.338 loading class org/ccj/physics/PhysicsContact
+Event: 10.338 loading class org/ccj/physics/PhysicsContact done
+Event: 10.338 loading class org/ccj/physics/PhysicsShape
+Event: 10.338 loading class org/ccj/physics/PhysicsShape done
+
+
+Dynamic libraries:
+0x00a20000 - 0x00a50000 	D:\develop\JetBrains\IdeaIC\CocosEditor2-Dev\jre\bin\java.exe
+0x77750000 - 0x778b8000 	C:\Windows\SYSTEM32\ntdll.dll
+0x758e0000 - 0x75a20000 	C:\Windows\SYSTEM32\KERNEL32.DLL
+0x75700000 - 0x757cf000 	C:\Windows\SYSTEM32\KERNELBASE.dll
+0x74440000 - 0x744d9000 	C:\Windows\system32\apphelp.dll
+0x71d10000 - 0x71f69000 	C:\Windows\AppPatch\AcGenral.DLL
+0x75ee0000 - 0x75f9e000 	C:\Windows\SYSTEM32\msvcrt.dll
+0x77470000 - 0x774ae000 	C:\Windows\SYSTEM32\sechost.dll
+0x75170000 - 0x7518d000 	C:\Windows\SYSTEM32\SspiCli.dll
+0x75330000 - 0x75371000 	C:\Windows\SYSTEM32\SHLWAPI.dll
+0x74b20000 - 0x74bfb000 	C:\Windows\SYSTEM32\UxTheme.dll
+0x77530000 - 0x7767f000 	C:\Windows\SYSTEM32\USER32.dll
+0x757d0000 - 0x758d7000 	C:\Windows\SYSTEM32\GDI32.dll
+0x74fb0000 - 0x74fd0000 	C:\Windows\SYSTEM32\WINMM.dll
+0x748e0000 - 0x748f2000 	C:\Windows\SYSTEM32\samcli.dll
+0x77280000 - 0x7738c000 	C:\Windows\SYSTEM32\ole32.dll
+0x75a20000 - 0x75aa7000 	C:\Windows\SYSTEM32\OLEAUT32.dll
+0x748c0000 - 0x748d5000 	C:\Windows\SYSTEM32\MSACM32.dll
+0x74f90000 - 0x74f98000 	C:\Windows\SYSTEM32\VERSION.dll
+0x760b0000 - 0x77271000 	C:\Windows\SYSTEM32\SHELL32.dll
+0x750d0000 - 0x750e9000 	C:\Windows\SYSTEM32\USERENV.dll
+0x73c40000 - 0x73c58000 	C:\Windows\SYSTEM32\dwmapi.dll
+0x740e0000 - 0x7420c000 	C:\Windows\SYSTEM32\urlmon.dll
+0x76030000 - 0x760a8000 	C:\Windows\SYSTEM32\ADVAPI32.dll
+0x739e0000 - 0x73a3e000 	C:\Windows\SYSTEM32\WINSPOOL.DRV
+0x74220000 - 0x74234000 	C:\Windows\SYSTEM32\MPR.dll
+0x773c0000 - 0x77470000 	C:\Windows\SYSTEM32\RPCRT4.dll
+0x75160000 - 0x75169000 	C:\Windows\SYSTEM32\CRYPTBASE.dll
+0x751a0000 - 0x752ee000 	C:\Windows\SYSTEM32\combase.dll
+0x74d90000 - 0x74db0000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x74f80000 - 0x74f8e000 	C:\Windows\SYSTEM32\profapi.dll
+0x74900000 - 0x74b1b000 	C:\Windows\SYSTEM32\iertutil.dll
+0x74db0000 - 0x74f72000 	C:\Windows\SYSTEM32\WININET.dll
+0x75100000 - 0x75152000 	C:\Windows\SYSTEM32\bcryptPrimitives.dll
+0x752f0000 - 0x7532a000 	C:\Windows\SYSTEM32\cfgmgr32.dll
+0x74810000 - 0x7482f000 	C:\Windows\SYSTEM32\DEVOBJ.dll
+0x74790000 - 0x74806000 	C:\Windows\SYSTEM32\SHCORE.DLL
+0x75b50000 - 0x75b75000 	C:\Windows\system32\IMM32.DLL
+0x75380000 - 0x75477000 	C:\Windows\SYSTEM32\MSCTF.dll
+0x737c0000 - 0x739a6000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.17031_none_a9efdb8b01377ea7\COMCTL32.dll
+0x6b770000 - 0x6b82f000 	D:\develop\JetBrains\IdeaIC\CocosEditor2-Dev\jre\jre\bin\msvcr100.dll
+0x6b3d0000 - 0x6b766000 	D:\develop\JetBrains\IdeaIC\CocosEditor2-Dev\jre\jre\bin\client\jvm.dll
+0x72160000 - 0x72168000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x756f0000 - 0x756f6000 	C:\Windows\SYSTEM32\PSAPI.DLL
+0x75480000 - 0x754cd000 	C:\Windows\SYSTEM32\WS2_32.dll
+0x77390000 - 0x77397000 	C:\Windows\SYSTEM32\NSI.dll
+0x72150000 - 0x7215c000 	D:\develop\JetBrains\IdeaIC\CocosEditor2-Dev\jre\jre\bin\verify.dll
+0x71fd0000 - 0x71ff1000 	D:\develop\JetBrains\IdeaIC\CocosEditor2-Dev\jre\jre\bin\java.dll
+0x71fb0000 - 0x71fc3000 	D:\develop\JetBrains\IdeaIC\CocosEditor2-Dev\jre\jre\bin\zip.dll
+0x00e70000 - 0x00e77000 	D:\develop\JetBrains\IdeaIC\CocosEditor2-Dev\bin\breakgen.dll
+0x5a4c0000 - 0x5a4d3000 	D:\develop\JetBrains\IdeaIC\CocosEditor2-Dev\cdk\bin\zlib1.dll
+0x6b2a0000 - 0x6b3c7000 	D:\develop\JetBrains\IdeaIC\CocosEditor2-Dev\cdk\bin\libcurl.dll
+0x756a0000 - 0x756eb000 	C:\Windows\SYSTEM32\WLDAP32.dll
+0x716c0000 - 0x716d4000 	D:\develop\JetBrains\IdeaIC\CocosEditor2-Dev\jre\jre\bin\net.dll
+0x74660000 - 0x746a5000 	C:\Windows\system32\mswsock.dll
+0x62aa0000 - 0x62af4000 	D:\develop\JetBrains\IdeaIC\CocosEditor2-Dev\cdk\bin\glew32.dll
+0x6b1c0000 - 0x6b294000 	C:\Windows\SYSTEM32\OPENGL32.dll
+0x6b190000 - 0x6b1b4000 	C:\Windows\SYSTEM32\GLU32.dll
+0x6b0a0000 - 0x6b187000 	C:\Windows\SYSTEM32\DDRAW.dll
+0x74210000 - 0x74217000 	C:\Windows\SYSTEM32\DCIMAN32.dll
+0x6afc0000 - 0x6b092000 	D:\develop\JetBrains\IdeaIC\CocosEditor2-Dev\cdk\bin\msvcr110.dll
+0x6ae20000 - 0x6afbb000 	D:\develop\JetBrains\IdeaIC\CocosEditor2-Dev\cdk\bin\msvcr110d.dll
+0x6a170000 - 0x6a23b000 	D:\develop\JetBrains\IdeaIC\CocosEditor2-Dev\cdk\bin\msvcp110d.dll
+0x6a0e0000 - 0x6a168000 	D:\develop\JetBrains\IdeaIC\CocosEditor2-Dev\cdk\bin\sqlite3.dll
+0x69010000 - 0x6a0d4000 	D:\develop\JetBrains\IdeaIC\CocosEditor2-Dev\cdk\bin\cocosjava.dll
+0x164a0000 - 0x16f44000 	C:\Windows\SYSTEM32\ig4icd32.dll
+0x743b0000 - 0x743b9000 	C:\Windows\SYSTEM32\kernel.appcore.dll
+0x6e7b0000 - 0x6e83a000 	C:\Users\yuanyou\AppData\Roaming\TaobaoProtect\TaobaoProtectSE.dll
+0x774b0000 - 0x7752d000 	C:\Windows\SYSTEM32\clbcatq.dll
+0x72b40000 - 0x72b95000 	C:\Windows\SYSTEM32\IME\QQPinyinTSF\QQPinyinTSF.dll
+0x750f0000 - 0x750fe000 	C:\Windows\SYSTEM32\WTSAPI32.dll
+0x73df0000 - 0x73e32000 	C:\Windows\SYSTEM32\WINSTA.dll
+0x72820000 - 0x72b33000 	C:\Windows\system32\IME\QQPinyinTSF\QQPinyin.ime
+0x75030000 - 0x75036000 	C:\Windows\SYSTEM32\MSIMG32.dll
+0x75010000 - 0x75022000 	C:\Windows\SYSTEM32\NETAPI32.dll
+0x75000000 - 0x7500a000 	C:\Windows\SYSTEM32\netutils.dll
+0x74fe0000 - 0x74ffb000 	C:\Windows\SYSTEM32\srvcli.dll
+0x74fd0000 - 0x74fe0000 	C:\Windows\SYSTEM32\wkscli.dll
+0x74c00000 - 0x74d48000 	C:\Windows\SYSTEM32\dbghelp.dll
+
+VM Arguments:
+jvm_args: -DCDK_HOME=D:/develop/JetBrains/IdeaIC/CocosEditor2-Dev/cdk -Didea.launcher.port=7532 -Didea.launcher.bin.path=D:\develop\JetBrains\IdeaIC\CocosEditor2-Dev\bin -Dfile.encoding=UTF-8 
+java_command: com.intellij.rt.execution.application.AppMain org.ccj.TestMain
+java_class_path (initial): D:\develop\JetBrains\IdeaIC\CocosEditor2-Dev\cdk\lib\classpath-1.1.jar;D:\develop\JetBrains\IdeaIC\CocosEditor2-Dev\cdk\lib\cocosjava-3.2.jar;D:\develop\JetBrains\IdeaIC\CocosEditor2-Dev\cdk\samples\cocos-java-tests\target\classes;D:\develop\JetBrains\IdeaIC\CocosEditor2-Dev\lib\idea_rt.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=D:\develop\Java\jdk1.8.0-64
+PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\VanDyke Software\Clients\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Common Files\Autodesk Shared\;D:\develop\cmake-2.8.12.1-win32-x86\bin;D:\develop\MinGW\bin;D:\develop\MinGW\msys\1.0\bin;D:\develop\Java\jdk1.8.0-64\bin
+USERNAME=yuanyou
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 23 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8.1 , 64 bit Build 9600 
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 23 stepping 10, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, tsc
+
+Memory: 4k page, physical 8280084k(4544024k free), swap 9590804k(4794588k free)
+
+vm_info: Java HotSpot(TM) Client VM (25.0-b70) for windows-x86 JRE (1.8.0-b132), built on Mar  4 2014 03:51:15 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Thu Sep 18 09:30:31 2014
+elapsed time: 12 seconds
+
