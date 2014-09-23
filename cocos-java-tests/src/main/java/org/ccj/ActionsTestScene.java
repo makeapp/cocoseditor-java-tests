@@ -15,26 +15,22 @@ import org.ccj.math.Size;
  * @version $Date:14-3-5 上午10:44 $
  *          $Id$
  */
-public class ActionsTestScene extends TestScene
-{
+public class ActionsTestScene extends TestScene {
     static int SPRITE_GROSSINI_TAG = 1;
     static int SPRITE_TAMARA_TAG = 2;
     static int SPRITE_KATHIA_TAG = 3;
 
-    public Class[] getLayers()
-    {
+    public Class[] getLayers() {
         return new Class[]{ActionAnimate.class};
     }
 
-    static public class ActionsDemo extends TestLayer
-    {
+    static public class ActionsDemo extends TestLayer {
         Sprite _grossini,
-            _tamara,
-            _kathia;
+                _tamara,
+                _kathia;
 
         @Override
-        public void onCreate()
-        {
+        public void onCreate() {
             super.onCreate();
 
             this._grossini = Sprite.create(s_pathGrossini);
@@ -50,20 +46,16 @@ public class ActionsTestScene extends TestScene
         }
     }
 
-    static public class ActionManual extends TestLayer
-    {
+    static public class ActionManual extends TestLayer {
         @Override
-        public void onCreate()
-        {
+        public void onCreate() {
             super.onCreate();
         }
     }
 
-    static public class ActionAnimate extends ActionsDemo
-    {
+    static public class ActionAnimate extends ActionsDemo {
         @Override
-        public void onCreate()
-        {
+        public void onCreate() {
             super.onCreate();
 
             //
@@ -104,13 +96,11 @@ public class ActionsTestScene extends TestScene
             this._kathia.runAction(action3);
         }
 
-        public String getTitle()
-        {
+        public String getTitle() {
             return "Animation";
         }
 
-        public String getSubTitle()
-        {
+        public String getSubTitle() {
             return "Center: Manual animation. Border: using file format animation";
         }
     }
