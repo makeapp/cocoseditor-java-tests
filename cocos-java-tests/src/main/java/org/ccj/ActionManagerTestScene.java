@@ -125,6 +125,7 @@ public class ActionManagerTestScene
         public void onBugMe() {
             this.stopAllActions();
             this.runAction(ScaleTo.create(2, 2));
+            
         }
     }
 
