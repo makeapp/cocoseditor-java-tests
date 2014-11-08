@@ -1,69 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3c79280-0bcf-440a-8785-5785552ca275" name="Default" comment="touchsnow">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ActionsTestScene$ActionAnimate.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ActionsTestScene$ActionAnimate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ActionsTestScene$ActionManual.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ActionsTestScene$ActionManual.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ActionsTestScene$ActionsDemo.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ActionsTestScene$ActionsDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ActionsTestScene.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ActionsTestScene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/cocostudio/CocoStudioMainScene.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/cocostudio/CocoStudioMainScene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParallaxTestScene$Parallax1.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParallaxTestScene$Parallax1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParallaxTestScene$Parallax2.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParallaxTestScene$Parallax2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParallaxTestScene.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParallaxTestScene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoBigFlower.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoBigFlower.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoFire.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoFire.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoFirework.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoFirework.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoFlower.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoFlower.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoGalaxy.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoGalaxy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoParticleFromFile.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoParticleFromFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoSun.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoSun.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo$1.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo$2.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo$3.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo$4.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo$5.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/Sprite3DTestScene$Sprite3dTestLayer$1.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/Sprite3DTestScene$Sprite3dTestLayer$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/Sprite3DTestScene$Sprite3dTestLayer.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/Sprite3DTestScene$Sprite3dTestLayer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/Sprite3DTestScene$SpriteTestLayer.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/Sprite3DTestScene$SpriteTestLayer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/Sprite3DTestScene.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/Sprite3DTestScene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/TestMain$1.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/TestMain$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/TestMain.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/TestMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/TestScene$1.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/TestScene$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/TestScene.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/TestScene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/network/WebSocketTest$WebSocketTestLayer$1.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/network/WebSocketTest$WebSocketTestLayer$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/network/WebSocketTest$WebSocketTestLayer$2.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/network/WebSocketTest$WebSocketTestLayer$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/assets/scenetest/UIComponentTest/fishes/blowFish/Blowfish.xml" afterPath="$PROJECT_DIR$/target/assets/scenetest/UIComponentTest/fishes/blowFish/Blowfish.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/assets/Particles/BoilingFoam.plist" afterPath="$PROJECT_DIR$/target/assets/Particles/BoilingFoam.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/assets/Particles/BurstPipe.plist" afterPath="$PROJECT_DIR$/target/assets/Particles/BurstPipe.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/assets/extensions/CCControlColourPickerSpriteSheet.plist" afterPath="$PROJECT_DIR$/target/assets/extensions/CCControlColourPickerSpriteSheet.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ccj/cocostudio/CocoStudioMainScene.java" afterPath="$PROJECT_DIR$/src/main/java/org/ccj/cocostudio/CocoStudioMainScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/assets/Particles/Comet.plist" afterPath="$PROJECT_DIR$/target/assets/Particles/Comet.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/assets/armatures/Cowboy.xml" afterPath="$PROJECT_DIR$/target/assets/armatures/Cowboy.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/assets/Particles/ExplodingRing.plist" afterPath="$PROJECT_DIR$/target/assets/Particles/ExplodingRing.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/assets/Particles/Flower.plist" afterPath="$PROJECT_DIR$/target/assets/Particles/Flower.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/assets/Particles/Galaxy.plist" afterPath="$PROJECT_DIR$/target/assets/Particles/Galaxy.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/assets/Particles/LavaFlow.plist" afterPath="$PROJECT_DIR$/target/assets/Particles/LavaFlow.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ccj/ParallaxTestScene.java" afterPath="$PROJECT_DIR$/src/main/java/org/ccj/ParallaxTestScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/assets/scenetest/ParticleComponentTest/ParticleComponentTest.xml" afterPath="$PROJECT_DIR$/target/assets/scenetest/ParticleComponentTest/ParticleComponentTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ccj/ParticleTestScene.java" afterPath="$PROJECT_DIR$/src/main/java/org/ccj/ParticleTestScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/assets/Particles/Phoenix.plist" afterPath="$PROJECT_DIR$/target/assets/Particles/Phoenix.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/assets/Particles/SmallSun.plist" afterPath="$PROJECT_DIR$/target/assets/Particles/SmallSun.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/assets/Particles/SpinningPeas.plist" afterPath="$PROJECT_DIR$/target/assets/Particles/SpinningPeas.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/assets/Particles/Spiral.plist" afterPath="$PROJECT_DIR$/target/assets/Particles/Spiral.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/assets/Particles/SpookyPeas.plist" afterPath="$PROJECT_DIR$/target/assets/Particles/SpookyPeas.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ccj/Sprite3DTestScene.java" afterPath="$PROJECT_DIR$/src/main/java/org/ccj/Sprite3DTestScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ccj/TestMain.java" afterPath="$PROJECT_DIR$/src/main/java/org/ccj/TestMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/assets/Particles/TestPremultipliedAlpha.plist" afterPath="$PROJECT_DIR$/target/assets/Particles/TestPremultipliedAlpha.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ccj/TestScene.java" afterPath="$PROJECT_DIR$/src/main/java/org/ccj/TestScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/assets/scenetest/TriggerTest/TriggerTest.xml" afterPath="$PROJECT_DIR$/target/assets/scenetest/TriggerTest/TriggerTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/assets/cocosui/UIEditorTest/UIButton_Editor/UIButton_Editor_1.xml" afterPath="$PROJECT_DIR$/target/assets/cocosui/UIEditorTest/UIButton_Editor/UIButton_Editor_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/assets/Particles/Upsidedown.plist" afterPath="$PROJECT_DIR$/target/assets/Particles/Upsidedown.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cocos-java-tests.iml" afterPath="$PROJECT_DIR$/cocos-java-tests.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/assets/Particles/debian.plist" afterPath="$PROJECT_DIR$/target/assets/Particles/debian.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/assets/scenetest/UIComponentTest/starMenuButton/starMenuButton.xml" afterPath="$PROJECT_DIR$/target/assets/scenetest/UIComponentTest/starMenuButton/starMenuButton.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="d3c79280-0bcf-440a-8785-5785552ca275" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/TestLayer.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/TestLayer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ccj/TestLayer.java" afterPath="$PROJECT_DIR$/src/main/java/org/ccj/TestLayer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cocos-java-tests.iws" />
@@ -94,6 +34,9 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="true" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Push.Settings">
+    <option name="myUpdateMethod" value="REBASE" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -127,13 +70,11 @@
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <autoscrollToSource />
+      <autoscrollToSource ProjectPane="true" />
       <autoscrollFromSource />
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -152,8 +93,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cocos-java-tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cocos-java-tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cocos-java-tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cocos-java-tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,7 +160,7 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="D:/develop/git/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../cocoseditor-java-goldship/shipgold" />
     <property name="FullScreen" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
@@ -378,6 +365,13 @@
       <workItem from="1411881377681" duration="130000" />
       <workItem from="1411881575240" duration="1669000" />
     </task>
+    <task id="LOCAL-00001" summary="touchsnow">
+      <created>1415416777047</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1415416777047</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -397,21 +391,18 @@
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Images&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Physics&#9;" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Animations&#9;" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3159664" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer.New" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="ARAnimations&#9;" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1860817" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26399395" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Palette.New&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="NodeAnimations&#9;" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -419,6 +410,7 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3164983" sideWeight="0.27309564" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Cocos2dxResources" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18881686" sideWeight="0.6737013" order="4" side_tool="false" content_ui="tabs" />
@@ -431,9 +423,11 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22734138" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Anni" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32792208" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
       <window_info id="Sequence&#9;" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24757281" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="reVu" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PsiViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32810047" sideWeight="0.7414911" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3159664" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
       <window_info id="ImagePreview" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25984848" sideWeight="0.3483871" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -455,6 +449,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="touchsnow" />
+    <option name="LAST_COMMIT_MESSAGE" value="touchsnow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -696,13 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/ccj/ClickAndMoveTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93287826" vertical-offset="0" max-vertical-offset="1480">
-          <caret line="48" column="63" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/ccj/ActionManagerTestScene.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3649025" vertical-offset="2000" max-vertical-offset="6240">
@@ -803,6 +792,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.69491524" vertical-offset="870" max-vertical-offset="1460">
           <caret line="64" column="42" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ccj/TestLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6183746" vertical-offset="280" max-vertical-offset="918">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ccj/ClickAndMoveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.81272084" vertical-offset="766" max-vertical-offset="1332">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
         </state>
       </provider>
     </entry>

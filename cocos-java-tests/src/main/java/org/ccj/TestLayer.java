@@ -13,35 +13,29 @@ import org.ccj.math.Size;
  *          $Id$
  */
 public class TestLayer
-    extends LayerGradient
-{
+        extends LayerGradient {
     protected Size winSize = Director.getInstance().getWinSize().fetch();
 
-    public String getTitle()
-    {
+    public String getTitle() {
         return "";
     }
 
-    public String getSubTitle()
-    {
+    public String getSubTitle() {
         return "";
     }
 
     private boolean created = false;
 
-    public TestLayer()
-    {
+    public TestLayer() {
         setStartColor(new Color3B(0, 0, 0));
         setEndColor(new Color3B(0x46, 0x82, 0xB4));
     }
 
-    public void onCreate()
-    {
+    public void onCreate() {
 
     }
 
-    public void onEnter()
-    {
+    public void onEnter() {
         if (!created) {
             onCreate();
             created = true;
