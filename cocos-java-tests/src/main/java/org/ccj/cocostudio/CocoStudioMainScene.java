@@ -15,16 +15,14 @@ import org.ccj.cocostudio.scenetest.SceneEditorTest;
  *          $Id$
  */
 public class CocoStudioMainScene
-    extends TestMenuScene
-{
+        extends TestMenuScene {
 
-    public TestMenuLayer.MenuData[] getMenuData()
-    {
+    public TestMenuLayer.MenuData[] getMenuData() {
         return new TestMenuLayer.MenuData[]{
-            new TestMenuLayer.MenuData("CocoStudioArmatureTest", ArmatureTestScene.class, true),
-            new TestMenuLayer.MenuData("CocoStudioGUITest", UITestScene.class, true),
-            new TestMenuLayer.MenuData("CocoStudioComponentsTest", ComponentsTestScene.class, true),
-            new TestMenuLayer.MenuData("CocoStudioSceneTest", SceneEditorTest.class, true)
+                new TestMenuLayer.MenuData("CocoStudioArmatureTest", ArmatureTestScene.class, true),
+                new TestMenuLayer.MenuData("CocoStudioGUITest", UITestScene.class, true),
+                new TestMenuLayer.MenuData("CocoStudioComponentsTest", ComponentsTestScene.class, true),
+                new TestMenuLayer.MenuData("CocoStudioSceneTest", SceneEditorTest.class, true)
         };
     }
 }

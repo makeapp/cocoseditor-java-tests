@@ -17,8 +17,7 @@ import org.ccj.math.Size;
  *          $Id$
  */
 public abstract class TestScene
-    extends Scene implements TestResource, MenuItem.MenuItemListener
-{
+        extends Scene implements TestResource, MenuItem.MenuItemListener {
     int index = 0;
 
     int BASE_TEST_MENUITEM_PREV_TAG = 1;
@@ -29,8 +28,7 @@ public abstract class TestScene
     int BASE_TEST_TITLE_TAG = 11;
     int BASE_TEST_SUBTITLE_TAG = 12;
 
-    public TestScene()
-    {
+    public TestScene() {
         onCreate();
     }
 
@@ -38,8 +36,7 @@ public abstract class TestScene
     Label labelTitle = null;
     Label subTitle = null;
 
-    public void onCreate()
-    {
+    public void onCreate() {
         Size winSize = Director.getInstance().getWinSize();
         float winWidth = winSize.getWidth();
         float winHeight = winSize.getHeight();
@@ -60,10 +57,8 @@ public abstract class TestScene
             Menu menu = Menu.create();
 
             MenuItemFont pItem = MenuItemFont.create("MainScene");
-            pItem.setOnClickListener(new MenuItem.MenuItemListener()
-            {
-                public void onClicked(MenuItem item)
-                {
+            pItem.setOnClickListener(new MenuItem.MenuItemListener() {
+                public void onClicked(MenuItem item) {
                     Director.getInstance().popScene();
                 }
             });
@@ -109,52 +104,42 @@ public abstract class TestScene
         }
     }
 
-    public void onEnter()
-    {
+    public void onEnter() {
         super.onEnter();
     }
 
-    public void onExit()
-    {
+    public void onExit() {
         super.onExit();
     }
 
-    public boolean hasNavigation()
-    {
+    public boolean hasNavigation() {
         return true;
     }
 
-    public int getLayersCount()
-    {
+    public int getLayersCount() {
         return getLayers().length;
     }
 
-    public TestLayer getLayer(int idx)
-    {
+    public TestLayer getLayer(int idx) {
         try {
             return (TestLayer) getLayers()[idx].newInstance();
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return null;
     }
 
-    public Class[] getLayers()
-    {
+    public Class[] getLayers() {
         return new Class[0];
     }
 
 
-    public void onClicked(MenuItem item)
-    {
+    public void onClicked(MenuItem item) {
         if (item.getTag() == BASE_TEST_MENUITEM_PREV_TAG) {
             index--;
-        }
-        else if (item.getTag() == BASE_TEST_MENUITEM_NEXT_TAG) {
+        } else if (item.getTag() == BASE_TEST_MENUITEM_NEXT_TAG) {
             index++;
-        }
-        else if (item.getTag() == BASE_TEST_MENUITEM_RESET_TAG) {
+        } else if (item.getTag() == BASE_TEST_MENUITEM_RESET_TAG) {
 
         }
 
@@ -171,8 +156,7 @@ public abstract class TestScene
 
             if (labelTitle != null) {
                 labelTitle.setString(current.getTitle());
-            }
-            else if (subTitle != null) {
+            } else if (subTitle != null) {
                 subTitle.setString(current.getSubTitle());
             }
         }

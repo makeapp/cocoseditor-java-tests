@@ -10,10 +10,8 @@ import org.ccj.base.FileUtils;
  * @version $Date:14-2-23 上午11:15 $
  *          $Id$
  */
-public class TestMain
-{
-    public static void main(String[] args)
-    {
+public class TestMain {
+    public static void main(String[] args) {
         int w = 900;
         int h = 600;
 
@@ -25,10 +23,8 @@ public class TestMain
         final int width = w;
         final int height = h;
 
-        Application app = new Application()
-        {
-            public boolean applicationDidFinishLaunching()
-            {
+        Application app = new Application() {
+            public boolean applicationDidFinishLaunching() {
                 if (OS_WINDOWS == getTargetPlatform() || OS_ANDROID == getTargetPlatform()) {
                     GLView eglView = GLView.create("CocosPlayer");
                     eglView.setFrameSize(width, height);
@@ -44,21 +40,20 @@ public class TestMain
         app.run();
     }
 
-    public static void runTest()
-    {
+    public static void runTest() {
         String paths[] = {
-            "",
-            "scenetest",
-            "scenetest/ArmatureComponentTest",
-            "scenetest/AttributeComponentTest",
-            "scenetest/BackgroundComponentTest",
-            "scenetest/EffectComponentTest",
-            "scenetest/LoadSceneEdtiorFileTest",
-            "scenetest/ParticleComponentTest",
-            "scenetest/SpriteComponentTest",
-            "scenetest/TmxMapComponentTest",
-            "scenetest/UIComponentTest",
-            "scenetest/TriggerTest",
+                "",
+                "scenetest",
+                "scenetest/ArmatureComponentTest",
+                "scenetest/AttributeComponentTest",
+                "scenetest/BackgroundComponentTest",
+                "scenetest/EffectComponentTest",
+                "scenetest/LoadSceneEdtiorFileTest",
+                "scenetest/ParticleComponentTest",
+                "scenetest/SpriteComponentTest",
+                "scenetest/TmxMapComponentTest",
+                "scenetest/UIComponentTest",
+                "scenetest/TriggerTest",
         };
         for (String path : paths) {
             FileUtils.getInstance().addSearchPath(path);

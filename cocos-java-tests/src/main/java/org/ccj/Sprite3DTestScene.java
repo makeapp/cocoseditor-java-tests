@@ -22,29 +22,23 @@ import org.ccj.math.Vec3;
  *          $Id$
  */
 public class Sprite3DTestScene
-    extends TestScene
-    implements TestResource
-{
-    public int getLayersCount()
-    {
+        extends TestScene
+        implements TestResource {
+    public int getLayersCount() {
         return 2;
     }
 
-    public TestLayer getLayer(int idx)
-    {
+    public TestLayer getLayer(int idx) {
         if (idx == 0) {
             return new SpriteTestLayer();
-        }
-        else {
+        } else {
             return new Sprite3dTestLayer();
         }
     }
 
 
-    class SpriteTestLayer extends TestLayer
-    {
-        public void onEnter()
-        {
+    class SpriteTestLayer extends TestLayer {
+        public void onEnter() {
             Sprite3D model = Sprite3D.create("Sprite3DTest/boss1.obj", "Sprite3DTest/boss.png");
             model.setPosition(VisibleRect.center());
             model.setScale(20f);
@@ -58,10 +52,8 @@ public class Sprite3DTestScene
         }
     }
 
-    class Sprite3dTestLayer extends TestLayer
-    {
-        public void onEnter()
-        {
+    class Sprite3dTestLayer extends TestLayer {
+        public void onEnter() {
             String fileName = "Sprite3DTest/tortoise.c3b";
             final Sprite3D sprite = Sprite3D.create(fileName);
             sprite.setScale(0.1f);
@@ -81,10 +73,8 @@ public class Sprite3DTestScene
 
             final MoveTo _moveAction = MoveTo.create(4.f, new Vec2(s.width / 5.f, s.height / 2.f));
             _moveAction.retain();
-            Sequence seq = Sequence.create(_moveAction, new CallFunc()
-            {
-                public void execute()
-                {
+            Sequence seq = Sequence.create(_moveAction, new CallFunc() {
+                public void execute() {
                     sprite.stopActionByTag(100);
                     MoveBy inverse = _moveAction.reverse();
                     inverse.retain();

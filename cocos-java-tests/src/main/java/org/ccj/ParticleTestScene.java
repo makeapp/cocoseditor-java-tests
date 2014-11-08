@@ -19,17 +19,14 @@ import org.ccj.particle.ParticleSystemQuad;
 /**
  * Created by yuanyou@makeapp.co on 2014/4/19.
  */
-public class ParticleTestScene extends TestScene
-{
+public class ParticleTestScene extends TestScene {
     static int TAG_LABEL_ATLAS = 1;
 
-    public Class[] getLayers()
-    {
-        return new Class[]{DemoParticleFromFile.class,DemoFirework.class, DemoFire.class, DemoSun.class, DemoGalaxy.class, DemoFlower.class, DemoBigFlower.class, DemoParticleFromFile.class};
+    public Class[] getLayers() {
+        return new Class[]{DemoParticleFromFile.class, DemoFirework.class, DemoFire.class, DemoSun.class, DemoGalaxy.class, DemoFlower.class, DemoBigFlower.class, DemoParticleFromFile.class};
     }
 
-    static public class ParticleDemo extends TestLayer
-    {
+    static public class ParticleDemo extends TestLayer {
         ParticleSystem _emitter = null;
         Sprite _background = null;
         MenuItemSprite _shapeModeButton = null;
@@ -40,8 +37,7 @@ public class ParticleTestScene extends TestScene
         MenuItemSprite _groupMovementButton;
 
         @Override
-        public void onCreate()
-        {
+        public void onCreate() {
             super.onCreate();
             Size s = Director.getInstance().getWinSize().fetch();
 
@@ -58,10 +54,8 @@ public class ParticleTestScene extends TestScene
             Sprite groupBtnDisabled = Sprite.create(s_MovementMenuItem, new Rect(261, 0, 136, 23));
 
             _freeMovementButton = MenuItemSprite.create(freeBtnNormal, freeBtnSelected, freeBtnDisabled);
-            _freeMovementButton.setOnClickListener(new MenuItem.MenuItemListener()
-            {
-                public void onClicked(MenuItem item)
-                {
+            _freeMovementButton.setOnClickListener(new MenuItem.MenuItemListener() {
+                public void onClicked(MenuItem item) {
                     _emitter.setPositionType(_emitter.PARTICLE_TYPE_RELATIVE);
                     _relativeMovementButton.setVisible(true);
                     _freeMovementButton.setVisible(false);
@@ -71,10 +65,8 @@ public class ParticleTestScene extends TestScene
             this._freeMovementButton.setAnchorPoint(0, 0);
             this._freeMovementButton.setPosition(10, 150);
             this._relativeMovementButton = MenuItemSprite.create(relativeBtnNormal, relativeBtnSelected, relativeBtnDisabled);
-            _relativeMovementButton.setOnClickListener(new MenuItem.MenuItemListener()
-            {
-                public void onClicked(MenuItem item)
-                {
+            _relativeMovementButton.setOnClickListener(new MenuItem.MenuItemListener() {
+                public void onClicked(MenuItem item) {
                     _emitter.setPositionType(_emitter.PARTICLE_TYPE_GROUPED);
                     _relativeMovementButton.setVisible(false);
                     _freeMovementButton.setVisible(false);
@@ -87,10 +79,8 @@ public class ParticleTestScene extends TestScene
             this._relativeMovementButton.setAnchorPoint(0, 0);
 
             this._groupMovementButton = MenuItemSprite.create(groupBtnNormal, groupBtnSelected, groupBtnDisabled);
-            _groupMovementButton.setOnClickListener(new MenuItem.MenuItemListener()
-            {
-                public void onClicked(MenuItem item)
-                {
+            _groupMovementButton.setOnClickListener(new MenuItem.MenuItemListener() {
+                public void onClicked(MenuItem item) {
                     _emitter.setPositionType(_emitter.PARTICLE_TYPE_FREE);
                     _relativeMovementButton.setVisible(false);
                     _freeMovementButton.setVisible(true);
@@ -106,10 +96,8 @@ public class ParticleTestScene extends TestScene
             Sprite spriteDisabled = Sprite.create(s_shapeModeMenuItem, new Rect(0, 0, 115, 23));
 
             this._shapeModeButton = MenuItemSprite.create(spriteNormal, spriteSelected, spriteDisabled);
-            _shapeModeButton.setOnClickListener(new MenuItem.MenuItemListener()
-            {
-                public void onClicked(MenuItem item)
-                {
+            _shapeModeButton.setOnClickListener(new MenuItem.MenuItemListener() {
+                public void onClicked(MenuItem item) {
 //                    if (_emitter.setDrawMode)
 //                                                    _emitter.setDrawMode(PARTICLE_TEXTURE_MODE);
                     _textureModeButton.setVisible(true);
@@ -129,10 +117,8 @@ public class ParticleTestScene extends TestScene
             Sprite spriteDisabled_t = Sprite.create(s_textureModeMenuItem, new Rect(0, 0, 115, 23));
 
             this._textureModeButton = MenuItemSprite.create(spriteNormal_t, spriteSelected_t, spriteDisabled_t);
-            _textureModeButton.setOnClickListener(new MenuItem.MenuItemListener()
-            {
-                public void onClicked(MenuItem item)
-                {
+            _textureModeButton.setOnClickListener(new MenuItem.MenuItemListener() {
+                public void onClicked(MenuItem item) {
 //                    if (_emitter.setDrawMode)
 //                                                    _emitter.setDrawMode(PARTICLE_SHAPE_MODE);
                     _textureModeButton.setVisible(false);
@@ -144,7 +130,7 @@ public class ParticleTestScene extends TestScene
             this._textureModeButton.setAnchorPoint(0, 0);
 
             Menu menu = Menu.create(this._shapeModeButton, this._textureModeButton,
-                this._freeMovementButton, this._relativeMovementButton, this._groupMovementButton);
+                    this._freeMovementButton, this._relativeMovementButton, this._groupMovementButton);
             menu.setPosition(0, 0);
             this.addChild(menu, 100);
 
@@ -168,8 +154,7 @@ public class ParticleTestScene extends TestScene
             setTouchMode(Touch.MODE_ONE_BY_ONE);
         }
 
-        public void _moveToTouchPoint(Vec2 location)
-        {
+        public void _moveToTouchPoint(Vec2 location) {
             location.fetch();
             Vec2 pos = new Vec2(0, 0);
             if (this._background != null) {
@@ -178,33 +163,28 @@ public class ParticleTestScene extends TestScene
             this._emitter.setPosition(location.x - pos.x, location.y - pos.y);
         }
 
-        public void onTouchMoved(Touch touch, Event event)
-        {
+        public void onTouchMoved(Touch touch, Event event) {
             super.onTouchMoved(touch, event);
             _moveToTouchPoint(touch.getLocation());
         }
 
-        public boolean onTouchBegan(Touch touch, Event event)
-        {
+        public boolean onTouchBegan(Touch touch, Event event) {
             _moveToTouchPoint(touch.getLocation());
             return true;
         }
 
-        public void onEnter()
-        {
+        public void onEnter() {
             super.onEnter();
         }
 
-        public void onUpdate(float dt)
-        {
+        public void onUpdate(float dt) {
             if (this._emitter != null) {
                 Label atlas = Label.cast(this.getChildByTag(TAG_LABEL_ATLAS));
                 atlas.setString("" + this._emitter.getParticleCount());
             }
         }
 
-        public void setEmitterPosition()
-        {
+        public void setEmitterPosition() {
             Vec2 sourcePos = this._emitter.getSourcePosition();
             if (sourcePos.x == 0 && sourcePos.y == 0) {
                 _moveToTouchPoint(VisibleRect.center());
@@ -212,11 +192,9 @@ public class ParticleTestScene extends TestScene
         }
     }
 
-    static public class DemoFirework extends ParticleDemo
-    {
+    static public class DemoFirework extends ParticleDemo {
         @Override
-        public void onCreate()
-        {
+        public void onCreate() {
             super.onCreate();
 
             this._emitter = ParticleFireworks.create();
@@ -228,17 +206,14 @@ public class ParticleTestScene extends TestScene
             this.setEmitterPosition();
         }
 
-        public String getTitle()
-        {
+        public String getTitle() {
             return "ParticleFireworks";
         }
     }
 
-    static public class DemoFire extends ParticleDemo
-    {
+    static public class DemoFire extends ParticleDemo {
         @Override
-        public void onCreate()
-        {
+        public void onCreate() {
             super.onCreate();
 
             this._emitter = ParticleFire.create();
@@ -250,17 +225,14 @@ public class ParticleTestScene extends TestScene
             this.setEmitterPosition();
         }
 
-        public String getTitle()
-        {
+        public String getTitle() {
             return "ParticleFire";
         }
     }
 
-    static public class DemoSun extends ParticleDemo
-    {
+    static public class DemoSun extends ParticleDemo {
         @Override
-        public void onCreate()
-        {
+        public void onCreate() {
             super.onCreate();
 
             this._emitter = ParticleSun.create();
@@ -272,17 +244,14 @@ public class ParticleTestScene extends TestScene
             this.setEmitterPosition();
         }
 
-        public String getTitle()
-        {
+        public String getTitle() {
             return "ParticleSun";
         }
     }
 
-    static public class DemoGalaxy extends ParticleDemo
-    {
+    static public class DemoGalaxy extends ParticleDemo {
         @Override
-        public void onCreate()
-        {
+        public void onCreate() {
             super.onCreate();
 
             this._emitter = ParticleGalaxy.create();
@@ -294,17 +263,14 @@ public class ParticleTestScene extends TestScene
             this.setEmitterPosition();
         }
 
-        public String getTitle()
-        {
+        public String getTitle() {
             return "ParticleGalaxy";
         }
     }
 
-    static public class DemoFlower extends ParticleDemo
-    {
+    static public class DemoFlower extends ParticleDemo {
         @Override
-        public void onCreate()
-        {
+        public void onCreate() {
             super.onCreate();
 
             this._emitter = ParticleFlower.create();
@@ -316,18 +282,15 @@ public class ParticleTestScene extends TestScene
             this.setEmitterPosition();
         }
 
-        public String getTitle()
-        {
+        public String getTitle() {
             return "ParticleFlower";
         }
     }
 
 
-    static public class DemoBigFlower extends ParticleDemo
-    {
+    static public class DemoBigFlower extends ParticleDemo {
         @Override
-        public void onCreate()
-        {
+        public void onCreate() {
             super.onCreate();
 
             this._emitter = ParticleSystem.createWithTotalParticles(50);
@@ -395,21 +358,18 @@ public class ParticleTestScene extends TestScene
             this.setEmitterPosition();
         }
 
-        public String getTitle()
-        {
+        public String getTitle() {
             return "ParticleBigFlower";
         }
     }
 
-    static public class DemoParticleFromFile extends ParticleDemo
-    {
+    static public class DemoParticleFromFile extends ParticleDemo {
         String[] filenames = {"BoilingFoam", "BurstPipe", "Comet", "debian", "ExplodingRing", "LavaFlow", "SpinningPeas", "SpookyPeas", "Upsidedown", "Flower", "Spiral", "Galaxy"};
         String filename;
         static int idx = 0;
 
         @Override
-        public void onCreate()
-        {
+        public void onCreate() {
             super.onCreate();
             if (idx >= filenames.length) {
                 idx = 0;
@@ -433,8 +393,7 @@ public class ParticleTestScene extends TestScene
             this.setEmitterPosition();
         }
 
-        public String getTitle()
-        {
+        public String getTitle() {
             return filename;
         }
     }

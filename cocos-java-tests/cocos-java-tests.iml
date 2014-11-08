@@ -15,7 +15,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
     </content>
-    <orderEntry type="jdk" jdkName="CocosJDK" jdkType="CocosDK" />
+    <orderEntry type="jdk" jdkName="CDK" jdkType="CDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="cocosjava" level="application" />
   </component>

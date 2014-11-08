@@ -12,21 +12,17 @@ import org.ccj.math.Vec2;
 /**
  * Created by yuanyou@makeapp.co on 2014/4/19.
  */
-public class ParallaxTestScene extends TestScene
-{
+public class ParallaxTestScene extends TestScene {
     public static final int kTagNode = 0;
 
-    public Class[] getLayers()
-    {
+    public Class[] getLayers() {
         return new Class[]{Parallax1.class, Parallax2.class};
     }
 
     static public class Parallax1 extends TestLayer
-        implements TestResource
-    {
+            implements TestResource {
         @Override
-        public void onCreate()
-        {
+        public void onCreate() {
             super.onCreate();
 
             // Top Layer, a simple image
@@ -84,18 +80,15 @@ public class ParallaxTestScene extends TestScene
             addChild(voidNode);
         }
 
-        public String getTitle()
-        {
+        public String getTitle() {
             return "Parallax: parent and 3 children";
         }
     }
 
 
     static public class Parallax2 extends TestLayer
-        implements TestResource
-    {
-        public void onEnter()
-        {
+            implements TestResource {
+        public void onEnter() {
             super.onEnter();
 
             setTouchEnabled(true);
@@ -144,13 +137,11 @@ public class ParallaxTestScene extends TestScene
             addChild(voidNode, 0, kTagNode);
         }
 
-        public boolean onTouchBegan(Touch touch, Event event)
-        {
+        public boolean onTouchBegan(Touch touch, Event event) {
             return true;
         }
 
-        public void onTouchMoved(Touch touch, Event event)
-        {
+        public void onTouchMoved(Touch touch, Event event) {
             super.onTouchMoved(touch, event);
             Vec2 diff = touch.getDelta();
 
