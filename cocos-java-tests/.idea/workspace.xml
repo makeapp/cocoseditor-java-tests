@@ -2,77 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b5f0dc9-a977-4f39-9a81-1ee930bc1492" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\work\cocoseditor\cocoseditor-java-tests\cocos-java-tests\target\assets\hs_err_pid4616.log" afterPath="" />
-      <change type="DELETED" beforePath="D:\work\cocoseditor\cocoseditor-java-tests\cocos-java-tests\target\assets\hs_err_pid5212.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ActionManagerTestScene$BaseTest.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ActionManagerTestScene$BaseTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ActionManagerTestScene$LogicTest.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ActionManagerTestScene$LogicTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ActionManagerTestScene$PauseTest$1.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ActionManagerTestScene$PauseTest$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ActionManagerTestScene$PauseTest$2.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ActionManagerTestScene$PauseTest$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ActionManagerTestScene$PauseTest$grossiniData.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ActionManagerTestScene$PauseTest$grossiniData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ActionManagerTestScene$PauseTest.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ActionManagerTestScene$PauseTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ActionManagerTestScene$RemoveTest.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ActionManagerTestScene$RemoveTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ActionManagerTestScene$ResumeTest.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ActionManagerTestScene$ResumeTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ActionManagerTestScene.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ActionManagerTestScene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ActionsTestScene$ActionAnimate.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ActionsTestScene$ActionAnimate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ActionsTestScene$ActionManual.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ActionsTestScene$ActionManual.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ActionsTestScene.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ActionsTestScene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ClickAndMoveTest$MoveTest.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ClickAndMoveTest$MoveTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/cocostudio/CocoStudioMainScene.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/cocostudio/CocoStudioMainScene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParallaxTestScene$Parallax1.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParallaxTestScene$Parallax1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParallaxTestScene$Parallax2.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParallaxTestScene$Parallax2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParallaxTestScene.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParallaxTestScene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoBigFlower.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoBigFlower.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoFire.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoFire.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoFirework.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoFirework.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoFlower.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoFlower.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoGalaxy.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoGalaxy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoParticleFromFile.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoParticleFromFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoSun.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$DemoSun.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo$1.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo$2.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo$3.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo$4.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo$5.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene$ParticleDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/ParticleTestScene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/cocostudio/componentstest/PlayerController.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/cocostudio/componentstest/PlayerController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/Sprite3DTestScene$Sprite3dTestLayer$1.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/Sprite3DTestScene$Sprite3dTestLayer$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/Sprite3DTestScene$Sprite3dTestLayer.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/Sprite3DTestScene$Sprite3dTestLayer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/Sprite3DTestScene$SpriteTestLayer.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/Sprite3DTestScene$SpriteTestLayer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/Sprite3DTestScene.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/Sprite3DTestScene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/TestLayer.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/TestLayer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/TestMain$1.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/TestMain$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/TestMain.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/TestMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/TestMainScene$TestData.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/TestMainScene$TestData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/TestMainScene$TestMainLayer$1.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/TestMainScene$TestMainLayer$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/TestMainScene$TestMainLayer$2.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/TestMainScene$TestMainLayer$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/TestMainScene$TestMainLayer.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/TestMainScene$TestMainLayer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/TestMainScene.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/TestMainScene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/TestScene$1.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/TestScene$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/TestScene.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/TestScene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/TileMapTestScene$MoveTest.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/TileMapTestScene$MoveTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/ccj/TileMapTestScene.class" afterPath="$PROJECT_DIR$/target/classes/org/ccj/TileMapTestScene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ccj/ActionManagerTestScene.java" afterPath="$PROJECT_DIR$/src/main/java/org/ccj/ActionManagerTestScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ccj/ActionsTestScene.java" afterPath="$PROJECT_DIR$/src/main/java/org/ccj/ActionsTestScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ccj/ClickAndMoveTest.java" afterPath="$PROJECT_DIR$/src/main/java/org/ccj/ClickAndMoveTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ccj/cocostudio/CocoStudioMainScene.java" afterPath="$PROJECT_DIR$/src/main/java/org/ccj/cocostudio/CocoStudioMainScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ccj/CocosDenshionTestScene.java" afterPath="$PROJECT_DIR$/src/main/java/org/ccj/CocosDenshionTestScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ccj/CocosNodeTest.java" afterPath="$PROJECT_DIR$/src/main/java/org/ccj/CocosNodeTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ccj/ParallaxTestScene.java" afterPath="$PROJECT_DIR$/src/main/java/org/ccj/ParallaxTestScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ccj/ParticleTestScene.java" afterPath="$PROJECT_DIR$/src/main/java/org/ccj/ParticleTestScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ccj/cocostudio/componentstest/PlayerController.java" afterPath="$PROJECT_DIR$/src/main/java/org/ccj/cocostudio/componentstest/PlayerController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ccj/Sprite3DTestScene.java" afterPath="$PROJECT_DIR$/src/main/java/org/ccj/Sprite3DTestScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ccj/TestLayer.java" afterPath="$PROJECT_DIR$/src/main/java/org/ccj/TestLayer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ccj/TestMain.java" afterPath="$PROJECT_DIR$/src/main/java/org/ccj/TestMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ccj/TestMainScene.java" afterPath="$PROJECT_DIR$/src/main/java/org/ccj/TestMainScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ccj/TestScene.java" afterPath="$PROJECT_DIR$/src/main/java/org/ccj/TestScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ccj/TileMapTestScene.java" afterPath="$PROJECT_DIR$/src/main/java/org/ccj/TileMapTestScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cocos-java-tests.iml" afterPath="$PROJECT_DIR$/cocos-java-tests.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cocos-java-tests.iws" />
@@ -96,7 +26,21 @@
     <favorites_list name="cocos-java-tests" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="TestMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/ccj/TestMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.42756185" vertical-offset="712" max-vertical-offset="1278">
+              <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+              <folding>
+                <element signature="e#605#1103#0" expanded="true" />
+                <element signature="e#1102#1103#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -147,6 +91,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cocos-java-tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cocos-java-tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cocos-java-tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccj" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -396,11 +366,18 @@
       <option name="number" value="Default" />
       <updated>1415430678000</updated>
     </task>
+    <task id="LOCAL-00001" summary="touchsnow">
+      <created>1415431303029</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1415431303029</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -415,18 +392,18 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Images&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.59327734" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Physics&#9;" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Animations&#9;" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25042018" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29075631" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer.New" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="ARAnimations&#9;" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2118003" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22163388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Palette.New&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="NodeAnimations&#9;" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -452,6 +429,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="touchsnow" />
+    <option name="LAST_COMMIT_MESSAGE" value="touchsnow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -473,6 +452,17 @@
             <element signature="e#2984#2985#0" expanded="true" />
             <element signature="e#4952#4953#0" expanded="true" />
             <element signature="e#4987#4988#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ccj/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42756185" vertical-offset="712" max-vertical-offset="1278">
+          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+          <folding>
+            <element signature="e#605#1103#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
           </folding>
         </state>
       </provider>
