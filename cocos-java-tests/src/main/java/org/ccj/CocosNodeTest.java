@@ -13,6 +13,10 @@ public class CocosNodeTest extends TestScene
     public Class[] getLayers()
     {
         return new Class[]{MoveTest.class};
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
     }
 
     static public class MoveTest extends TestLayer

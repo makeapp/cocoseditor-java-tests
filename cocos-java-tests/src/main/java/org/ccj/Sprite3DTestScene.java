@@ -22,6 +22,7 @@ import org.ccj.math.Vec3;
  *          $Id$
  */
 public class Sprite3DTestScene
+<<<<<<< HEAD
         extends TestScene
         implements TestResource {
     public int getLayersCount() {
@@ -32,13 +33,36 @@ public class Sprite3DTestScene
         if (idx == 0) {
             return new SpriteTestLayer();
         } else {
+=======
+    extends TestScene
+    implements TestResource
+{
+    public int getLayersCount()
+    {
+        return 2;
+    }
+
+    public TestLayer getLayer(int idx)
+    {
+        if (idx == 0) {
+            return new SpriteTestLayer();
+        }
+        else {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             return new Sprite3dTestLayer();
         }
     }
 
 
+<<<<<<< HEAD
     class SpriteTestLayer extends TestLayer {
         public void onEnter() {
+=======
+    class SpriteTestLayer extends TestLayer
+    {
+        public void onEnter()
+        {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             Sprite3D model = Sprite3D.create("Sprite3DTest/boss1.obj", "Sprite3DTest/boss.png");
             model.setPosition(VisibleRect.center());
             model.setScale(20f);
@@ -52,8 +76,15 @@ public class Sprite3DTestScene
         }
     }
 
+<<<<<<< HEAD
     class Sprite3dTestLayer extends TestLayer {
         public void onEnter() {
+=======
+    class Sprite3dTestLayer extends TestLayer
+    {
+        public void onEnter()
+        {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             String fileName = "Sprite3DTest/tortoise.c3b";
             final Sprite3D sprite = Sprite3D.create(fileName);
             sprite.setScale(0.1f);
@@ -73,8 +104,15 @@ public class Sprite3DTestScene
 
             final MoveTo _moveAction = MoveTo.create(4.f, new Vec2(s.width / 5.f, s.height / 2.f));
             _moveAction.retain();
+<<<<<<< HEAD
             Sequence seq = Sequence.create(_moveAction, new CallFunc() {
                 public void execute() {
+=======
+            Sequence seq = Sequence.create(_moveAction, new CallFunc()
+            {
+                public void execute()
+                {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
                     sprite.stopActionByTag(100);
                     MoveBy inverse = _moveAction.reverse();
                     inverse.retain();

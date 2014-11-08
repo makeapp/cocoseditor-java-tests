@@ -19,6 +19,7 @@ import org.ccj.particle.ParticleSystemQuad;
 /**
  * Created by yuanyou@makeapp.co on 2014/4/19.
  */
+<<<<<<< HEAD
 public class ParticleTestScene extends TestScene {
     static int TAG_LABEL_ATLAS = 1;
 
@@ -27,6 +28,19 @@ public class ParticleTestScene extends TestScene {
     }
 
     static public class ParticleDemo extends TestLayer {
+=======
+public class ParticleTestScene extends TestScene
+{
+    static int TAG_LABEL_ATLAS = 1;
+
+    public Class[] getLayers()
+    {
+        return new Class[]{DemoParticleFromFile.class,DemoFirework.class, DemoFire.class, DemoSun.class, DemoGalaxy.class, DemoFlower.class, DemoBigFlower.class, DemoParticleFromFile.class};
+    }
+
+    static public class ParticleDemo extends TestLayer
+    {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
         ParticleSystem _emitter = null;
         Sprite _background = null;
         MenuItemSprite _shapeModeButton = null;
@@ -37,7 +51,12 @@ public class ParticleTestScene extends TestScene {
         MenuItemSprite _groupMovementButton;
 
         @Override
+<<<<<<< HEAD
         public void onCreate() {
+=======
+        public void onCreate()
+        {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             super.onCreate();
             Size s = Director.getInstance().getWinSize().fetch();
 
@@ -54,8 +73,15 @@ public class ParticleTestScene extends TestScene {
             Sprite groupBtnDisabled = Sprite.create(s_MovementMenuItem, new Rect(261, 0, 136, 23));
 
             _freeMovementButton = MenuItemSprite.create(freeBtnNormal, freeBtnSelected, freeBtnDisabled);
+<<<<<<< HEAD
             _freeMovementButton.setOnClickListener(new MenuItem.MenuItemListener() {
                 public void onClicked(MenuItem item) {
+=======
+            _freeMovementButton.setOnClickListener(new MenuItem.MenuItemListener()
+            {
+                public void onClicked(MenuItem item)
+                {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
                     _emitter.setPositionType(_emitter.PARTICLE_TYPE_RELATIVE);
                     _relativeMovementButton.setVisible(true);
                     _freeMovementButton.setVisible(false);
@@ -65,8 +91,15 @@ public class ParticleTestScene extends TestScene {
             this._freeMovementButton.setAnchorPoint(0, 0);
             this._freeMovementButton.setPosition(10, 150);
             this._relativeMovementButton = MenuItemSprite.create(relativeBtnNormal, relativeBtnSelected, relativeBtnDisabled);
+<<<<<<< HEAD
             _relativeMovementButton.setOnClickListener(new MenuItem.MenuItemListener() {
                 public void onClicked(MenuItem item) {
+=======
+            _relativeMovementButton.setOnClickListener(new MenuItem.MenuItemListener()
+            {
+                public void onClicked(MenuItem item)
+                {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
                     _emitter.setPositionType(_emitter.PARTICLE_TYPE_GROUPED);
                     _relativeMovementButton.setVisible(false);
                     _freeMovementButton.setVisible(false);
@@ -79,8 +112,15 @@ public class ParticleTestScene extends TestScene {
             this._relativeMovementButton.setAnchorPoint(0, 0);
 
             this._groupMovementButton = MenuItemSprite.create(groupBtnNormal, groupBtnSelected, groupBtnDisabled);
+<<<<<<< HEAD
             _groupMovementButton.setOnClickListener(new MenuItem.MenuItemListener() {
                 public void onClicked(MenuItem item) {
+=======
+            _groupMovementButton.setOnClickListener(new MenuItem.MenuItemListener()
+            {
+                public void onClicked(MenuItem item)
+                {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
                     _emitter.setPositionType(_emitter.PARTICLE_TYPE_FREE);
                     _relativeMovementButton.setVisible(false);
                     _freeMovementButton.setVisible(true);
@@ -96,8 +136,15 @@ public class ParticleTestScene extends TestScene {
             Sprite spriteDisabled = Sprite.create(s_shapeModeMenuItem, new Rect(0, 0, 115, 23));
 
             this._shapeModeButton = MenuItemSprite.create(spriteNormal, spriteSelected, spriteDisabled);
+<<<<<<< HEAD
             _shapeModeButton.setOnClickListener(new MenuItem.MenuItemListener() {
                 public void onClicked(MenuItem item) {
+=======
+            _shapeModeButton.setOnClickListener(new MenuItem.MenuItemListener()
+            {
+                public void onClicked(MenuItem item)
+                {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
 //                    if (_emitter.setDrawMode)
 //                                                    _emitter.setDrawMode(PARTICLE_TEXTURE_MODE);
                     _textureModeButton.setVisible(true);
@@ -117,8 +164,15 @@ public class ParticleTestScene extends TestScene {
             Sprite spriteDisabled_t = Sprite.create(s_textureModeMenuItem, new Rect(0, 0, 115, 23));
 
             this._textureModeButton = MenuItemSprite.create(spriteNormal_t, spriteSelected_t, spriteDisabled_t);
+<<<<<<< HEAD
             _textureModeButton.setOnClickListener(new MenuItem.MenuItemListener() {
                 public void onClicked(MenuItem item) {
+=======
+            _textureModeButton.setOnClickListener(new MenuItem.MenuItemListener()
+            {
+                public void onClicked(MenuItem item)
+                {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
 //                    if (_emitter.setDrawMode)
 //                                                    _emitter.setDrawMode(PARTICLE_SHAPE_MODE);
                     _textureModeButton.setVisible(false);
@@ -130,7 +184,11 @@ public class ParticleTestScene extends TestScene {
             this._textureModeButton.setAnchorPoint(0, 0);
 
             Menu menu = Menu.create(this._shapeModeButton, this._textureModeButton,
+<<<<<<< HEAD
                     this._freeMovementButton, this._relativeMovementButton, this._groupMovementButton);
+=======
+                this._freeMovementButton, this._relativeMovementButton, this._groupMovementButton);
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             menu.setPosition(0, 0);
             this.addChild(menu, 100);
 
@@ -154,7 +212,12 @@ public class ParticleTestScene extends TestScene {
             setTouchMode(Touch.MODE_ONE_BY_ONE);
         }
 
+<<<<<<< HEAD
         public void _moveToTouchPoint(Vec2 location) {
+=======
+        public void _moveToTouchPoint(Vec2 location)
+        {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             location.fetch();
             Vec2 pos = new Vec2(0, 0);
             if (this._background != null) {
@@ -163,28 +226,53 @@ public class ParticleTestScene extends TestScene {
             this._emitter.setPosition(location.x - pos.x, location.y - pos.y);
         }
 
+<<<<<<< HEAD
         public void onTouchMoved(Touch touch, Event event) {
+=======
+        public void onTouchMoved(Touch touch, Event event)
+        {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             super.onTouchMoved(touch, event);
             _moveToTouchPoint(touch.getLocation());
         }
 
+<<<<<<< HEAD
         public boolean onTouchBegan(Touch touch, Event event) {
+=======
+        public boolean onTouchBegan(Touch touch, Event event)
+        {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             _moveToTouchPoint(touch.getLocation());
             return true;
         }
 
+<<<<<<< HEAD
         public void onEnter() {
             super.onEnter();
         }
 
         public void onUpdate(float dt) {
+=======
+        public void onEnter()
+        {
+            super.onEnter();
+        }
+
+        public void onUpdate(float dt)
+        {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             if (this._emitter != null) {
                 Label atlas = Label.cast(this.getChildByTag(TAG_LABEL_ATLAS));
                 atlas.setString("" + this._emitter.getParticleCount());
             }
         }
 
+<<<<<<< HEAD
         public void setEmitterPosition() {
+=======
+        public void setEmitterPosition()
+        {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             Vec2 sourcePos = this._emitter.getSourcePosition();
             if (sourcePos.x == 0 && sourcePos.y == 0) {
                 _moveToTouchPoint(VisibleRect.center());
@@ -192,9 +280,17 @@ public class ParticleTestScene extends TestScene {
         }
     }
 
+<<<<<<< HEAD
     static public class DemoFirework extends ParticleDemo {
         @Override
         public void onCreate() {
+=======
+    static public class DemoFirework extends ParticleDemo
+    {
+        @Override
+        public void onCreate()
+        {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             super.onCreate();
 
             this._emitter = ParticleFireworks.create();
@@ -206,14 +302,27 @@ public class ParticleTestScene extends TestScene {
             this.setEmitterPosition();
         }
 
+<<<<<<< HEAD
         public String getTitle() {
+=======
+        public String getTitle()
+        {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             return "ParticleFireworks";
         }
     }
 
+<<<<<<< HEAD
     static public class DemoFire extends ParticleDemo {
         @Override
         public void onCreate() {
+=======
+    static public class DemoFire extends ParticleDemo
+    {
+        @Override
+        public void onCreate()
+        {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             super.onCreate();
 
             this._emitter = ParticleFire.create();
@@ -225,14 +334,27 @@ public class ParticleTestScene extends TestScene {
             this.setEmitterPosition();
         }
 
+<<<<<<< HEAD
         public String getTitle() {
+=======
+        public String getTitle()
+        {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             return "ParticleFire";
         }
     }
 
+<<<<<<< HEAD
     static public class DemoSun extends ParticleDemo {
         @Override
         public void onCreate() {
+=======
+    static public class DemoSun extends ParticleDemo
+    {
+        @Override
+        public void onCreate()
+        {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             super.onCreate();
 
             this._emitter = ParticleSun.create();
@@ -244,14 +366,27 @@ public class ParticleTestScene extends TestScene {
             this.setEmitterPosition();
         }
 
+<<<<<<< HEAD
         public String getTitle() {
+=======
+        public String getTitle()
+        {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             return "ParticleSun";
         }
     }
 
+<<<<<<< HEAD
     static public class DemoGalaxy extends ParticleDemo {
         @Override
         public void onCreate() {
+=======
+    static public class DemoGalaxy extends ParticleDemo
+    {
+        @Override
+        public void onCreate()
+        {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             super.onCreate();
 
             this._emitter = ParticleGalaxy.create();
@@ -263,14 +398,27 @@ public class ParticleTestScene extends TestScene {
             this.setEmitterPosition();
         }
 
+<<<<<<< HEAD
         public String getTitle() {
+=======
+        public String getTitle()
+        {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             return "ParticleGalaxy";
         }
     }
 
+<<<<<<< HEAD
     static public class DemoFlower extends ParticleDemo {
         @Override
         public void onCreate() {
+=======
+    static public class DemoFlower extends ParticleDemo
+    {
+        @Override
+        public void onCreate()
+        {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             super.onCreate();
 
             this._emitter = ParticleFlower.create();
@@ -282,15 +430,28 @@ public class ParticleTestScene extends TestScene {
             this.setEmitterPosition();
         }
 
+<<<<<<< HEAD
         public String getTitle() {
+=======
+        public String getTitle()
+        {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             return "ParticleFlower";
         }
     }
 
 
+<<<<<<< HEAD
     static public class DemoBigFlower extends ParticleDemo {
         @Override
         public void onCreate() {
+=======
+    static public class DemoBigFlower extends ParticleDemo
+    {
+        @Override
+        public void onCreate()
+        {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             super.onCreate();
 
             this._emitter = ParticleSystem.createWithTotalParticles(50);
@@ -358,18 +519,33 @@ public class ParticleTestScene extends TestScene {
             this.setEmitterPosition();
         }
 
+<<<<<<< HEAD
         public String getTitle() {
+=======
+        public String getTitle()
+        {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             return "ParticleBigFlower";
         }
     }
 
+<<<<<<< HEAD
     static public class DemoParticleFromFile extends ParticleDemo {
+=======
+    static public class DemoParticleFromFile extends ParticleDemo
+    {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
         String[] filenames = {"BoilingFoam", "BurstPipe", "Comet", "debian", "ExplodingRing", "LavaFlow", "SpinningPeas", "SpookyPeas", "Upsidedown", "Flower", "Spiral", "Galaxy"};
         String filename;
         static int idx = 0;
 
         @Override
+<<<<<<< HEAD
         public void onCreate() {
+=======
+        public void onCreate()
+        {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             super.onCreate();
             if (idx >= filenames.length) {
                 idx = 0;
@@ -393,7 +569,12 @@ public class ParticleTestScene extends TestScene {
             this.setEmitterPosition();
         }
 
+<<<<<<< HEAD
         public String getTitle() {
+=======
+        public String getTitle()
+        {
+>>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             return filename;
         }
     }
