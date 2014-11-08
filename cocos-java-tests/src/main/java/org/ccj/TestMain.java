@@ -59,7 +59,7 @@ public class TestMain {
             FileUtils.getInstance().addSearchPath(path);
         }
         Director director = Director.getInstance();
-        director.setDisplayStats(true);
+//        director.setDisplayStats(true);
 
         director.getOpenGLView().setDesignResolutionSize(900, 600, GLView.POLICY_EXACT_FIT);
         director.runWithScene(new TestMainScene());
