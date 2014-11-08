@@ -12,34 +12,21 @@ import org.ccj.math.Vec2;
 /**
  * Created by yuanyou@makeapp.co on 2014/4/19.
  */
-<<<<<<< HEAD
-public class ParallaxTestScene extends TestScene {
-    public static final int kTagNode = 0;
-
-    public Class[] getLayers() {
-=======
 public class ParallaxTestScene extends TestScene
 {
     public static final int kTagNode = 0;
 
     public Class[] getLayers()
     {
->>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
         return new Class[]{Parallax1.class, Parallax2.class};
     }
 
     static public class Parallax1 extends TestLayer
-<<<<<<< HEAD
-            implements TestResource {
-        @Override
-        public void onCreate() {
-=======
         implements TestResource
     {
         @Override
         public void onCreate()
         {
->>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             super.onCreate();
 
             // Top Layer, a simple image
@@ -97,27 +84,18 @@ public class ParallaxTestScene extends TestScene
             addChild(voidNode);
         }
 
-<<<<<<< HEAD
-        public String getTitle() {
-=======
         public String getTitle()
         {
->>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             return "Parallax: parent and 3 children";
         }
     }
 
 
     static public class Parallax2 extends TestLayer
-<<<<<<< HEAD
-            implements TestResource {
-        public void onEnter() {
-=======
         implements TestResource
     {
         public void onEnter()
         {
->>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             super.onEnter();
 
             setTouchEnabled(true);
@@ -166,13 +144,6 @@ public class ParallaxTestScene extends TestScene
             addChild(voidNode, 0, kTagNode);
         }
 
-<<<<<<< HEAD
-        public boolean onTouchBegan(Touch touch, Event event) {
-            return true;
-        }
-
-        public void onTouchMoved(Touch touch, Event event) {
-=======
         public boolean onTouchBegan(Touch touch, Event event)
         {
             return true;
@@ -180,7 +151,6 @@ public class ParallaxTestScene extends TestScene
 
         public void onTouchMoved(Touch touch, Event event)
         {
->>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             super.onTouchMoved(touch, event);
             Vec2 diff = touch.getDelta();
 

@@ -6,9 +6,9 @@ package org.ccj;
 import org.ccj.d2.Animation;
 import org.ccj.d2.AnimationCache;
 import org.ccj.d2.Sprite;
-import org.ccj.d2.action.Animate;
-import org.ccj.d2.action.Sequence;
+import org.ccj.d2.action.*;
 import org.ccj.math.Size;
+import org.ccj.math.Vec2;
 
 /**
  * @author <a href="mailto:yuanyou@makeapp.co">yuanyou</a>
@@ -21,7 +21,7 @@ public class ActionsTestScene extends TestScene {
     static int SPRITE_KATHIA_TAG = 3;
 
     public Class[] getLayers() {
-        return new Class[]{ActionAnimate.class};
+        return new Class[]{ActionAnimate.class, BezierActionsDemo.class};
     }
 
     static public class ActionsDemo extends TestLayer {
@@ -43,6 +43,27 @@ public class ActionsTestScene extends TestScene {
             this._grossini.setPosition(s.width / 2, s.height / 3);
             this._tamara.setPosition(s.width / 2, 2 * s.height / 3);
             this._kathia.setPosition(s.width / 2, s.height / 2);
+        }
+    }
+
+    static public class BezierActionsDemo extends TestLayer {
+        Sprite _grossini;
+
+        public void onCreate() {
+            super.onCreate();
+
+            this._grossini = Sprite.create(s_pathGrossini);
+            BezierConfig config = new BezierConfig();
+            config.setControlPoint1(new Vec2(300,320));
+            config.setControlPoint2(new Vec2(300, -320));
+            config.setEndPosition(new Vec2(300, 100));
+            BezierTo bezierTo = BezierTo.create(1f,config);
+
+            EaseBezierAction bezierEaseForward = EaseBezierAction.create(bezierTo);
+            bezierEaseForward.setBezierParamer(0.5f, 0.5f, 1.0f, 1.0f);
+
+            addChild(_grossini);
+            _grossini.runAction(bezierEaseForward);
         }
     }
 

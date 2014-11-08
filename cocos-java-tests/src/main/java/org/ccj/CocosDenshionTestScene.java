@@ -1,7 +1,7 @@
 package org.ccj;
 
 /**
- * Created by touchsnow 2014/4/19.
+ * Created by yuanyou@makeapp.co on 2014/4/19.
  */
 public class CocosDenshionTestScene extends TestScene
 {

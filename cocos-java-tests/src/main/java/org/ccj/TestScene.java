@@ -17,12 +17,8 @@ import org.ccj.math.Size;
  *          $Id$
  */
 public abstract class TestScene
-<<<<<<< HEAD
-        extends Scene implements TestResource, MenuItem.MenuItemListener {
-=======
     extends Scene implements TestResource, MenuItem.MenuItemListener
 {
->>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
     int index = 0;
 
     int BASE_TEST_MENUITEM_PREV_TAG = 1;
@@ -33,12 +29,8 @@ public abstract class TestScene
     int BASE_TEST_TITLE_TAG = 11;
     int BASE_TEST_SUBTITLE_TAG = 12;
 
-<<<<<<< HEAD
-    public TestScene() {
-=======
     public TestScene()
     {
->>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
         onCreate();
     }
 
@@ -46,12 +38,8 @@ public abstract class TestScene
     Label labelTitle = null;
     Label subTitle = null;
 
-<<<<<<< HEAD
-    public void onCreate() {
-=======
     public void onCreate()
     {
->>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
         Size winSize = Director.getInstance().getWinSize();
         float winWidth = winSize.getWidth();
         float winHeight = winSize.getHeight();
@@ -72,15 +60,10 @@ public abstract class TestScene
             Menu menu = Menu.create();
 
             MenuItemFont pItem = MenuItemFont.create("MainScene");
-<<<<<<< HEAD
-            pItem.setOnClickListener(new MenuItem.MenuItemListener() {
-                public void onClicked(MenuItem item) {
-=======
             pItem.setOnClickListener(new MenuItem.MenuItemListener()
             {
                 public void onClicked(MenuItem item)
                 {
->>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
                     Director.getInstance().popScene();
                 }
             });
@@ -126,28 +109,6 @@ public abstract class TestScene
         }
     }
 
-<<<<<<< HEAD
-    public void onEnter() {
-        super.onEnter();
-    }
-
-    public void onExit() {
-        super.onExit();
-    }
-
-    public boolean hasNavigation() {
-        return true;
-    }
-
-    public int getLayersCount() {
-        return getLayers().length;
-    }
-
-    public TestLayer getLayer(int idx) {
-        try {
-            return (TestLayer) getLayers()[idx].newInstance();
-        } catch (Exception e) {
-=======
     public void onEnter()
     {
         super.onEnter();
@@ -174,30 +135,17 @@ public abstract class TestScene
             return (TestLayer) getLayers()[idx].newInstance();
         }
         catch (Exception e) {
->>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
             e.printStackTrace();
         }
         return null;
     }
 
-<<<<<<< HEAD
-    public Class[] getLayers() {
-=======
     public Class[] getLayers()
     {
->>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
         return new Class[0];
     }
 
 
-<<<<<<< HEAD
-    public void onClicked(MenuItem item) {
-        if (item.getTag() == BASE_TEST_MENUITEM_PREV_TAG) {
-            index--;
-        } else if (item.getTag() == BASE_TEST_MENUITEM_NEXT_TAG) {
-            index++;
-        } else if (item.getTag() == BASE_TEST_MENUITEM_RESET_TAG) {
-=======
     public void onClicked(MenuItem item)
     {
         if (item.getTag() == BASE_TEST_MENUITEM_PREV_TAG) {
@@ -207,7 +155,6 @@ public abstract class TestScene
             index++;
         }
         else if (item.getTag() == BASE_TEST_MENUITEM_RESET_TAG) {
->>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
 
         }
 
@@ -224,12 +171,8 @@ public abstract class TestScene
 
             if (labelTitle != null) {
                 labelTitle.setString(current.getTitle());
-<<<<<<< HEAD
-            } else if (subTitle != null) {
-=======
             }
             else if (subTitle != null) {
->>>>>>> 5eddfa732464c149bb47d4ee6b39028ea41f6062
                 subTitle.setString(current.getSubTitle());
             }
         }

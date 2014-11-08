@@ -24,7 +24,7 @@ public class ClickAndMoveTest extends TestScene {
         @Override
         public void onCreate() {
             super.onCreate();
-            setTouchMode(Touch.MODE_ONE_BY_ONE);
+
             setTouchEnabled(true);
 
             System.out.println("ClickAndMoveTest");
@@ -44,11 +44,10 @@ public class ClickAndMoveTest extends TestScene {
             layer.runAction(forever);
         }
 
-
-        @Override
-        public boolean onTouchBegan(Touch touch, Event event) {
+        public boolean onTouchBegan(Touch touch, TouchEvent event) {
             Vec2 point = touch.getStartLocationInView();
             System.out.println("point==" + point);
+            // point = new Vec2(200, 300);
             moveSprite(point.getX(), point.getY());
             System.out.println("onTouchBegan==" + point.getX());
             return super.onTouchBegan(touch, event);

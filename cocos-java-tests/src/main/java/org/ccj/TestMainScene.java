@@ -19,18 +19,20 @@ import org.ccj.math.Vec2;
 import org.ccj.math.Size;
 
 /**
- * @author touchsnow
- * @version $Date:2014/5/14 10:42 $
+ * @author <a href="mailto:yuanyou@makeapp.co">yuanyou</a>
+ * @version $Date:2014/4/14 10:42 $
  *          $Id$
  */
 public class TestMainScene
-        extends TestScene {
+    extends TestScene
+{
     static List<TestData> testes = new ArrayList();
 
     public static int LINE_SPACE = 60;
 
     static {
         testes.add(new TestData("Sprite Test", SpriteTestScene.class, true));
+        testes.add(new TestData("Actions Test", ActionsTestScene.class, true));
         testes.add(new TestData("Physics Test", PhysicsTestScene.class, true));
         testes.add(new TestData("Parallax Test", ParallaxTestScene.class, true));
         testes.add(new TestData("Extensions Test", ExtensionsMainScene.class, true));
@@ -38,19 +40,19 @@ public class TestMainScene
         testes.add(new TestData("MutiTouch", MutiTouchTest.class, true));
         testes.add(new TestData("Sprite3d Test", Sprite3DTestScene.class, true));
         testes.add(new TestData("Particle Test", ParticleTestScene.class, true));
-
+        testes.add(new TestData("TileMap Test", TileMapTestScene.class, true));
 //        testes.add(new TestData("3D Test", Hello3DTestScene.class, true));
 //        testes.add(new TestData("ActionManager Test", ActionManagerTestScene.class, true));
-        testes.add(new TestData("Actions Test", ActionsTestScene.class, true));
+//
 //        testes.add(new TestData("Scheduler Test", SchedulerTestScene.class, true));
 //        testes.add(new TestData("Box2D Test", SpriteTestScene.class, true));
 //        testes.add(new TestData("Chipmunk Test", ChipmunkTestScene.class, true));
-        testes.add(new TestData("Click and Move Test", ClickAndMoveTest.class, true));
+//        testes.add(new TestData("Click and Move Test", ClickAndMoveTest.class, true));
 //        testes.add(new TestData("ClippingNode Test", ClippingNodeTest.class, true));
 //        testes.add(new TestData("CocosDenshion Test", CocosDenshionTestScene.class, true));
-        testes.add(new TestData("CurrentLanguage Test", CurrentLanguageTest.class, true));
+//        testes.add(new TestData("CurrentLanguage Test", CurrentLanguageTest.class, true));
 //        testes.add(new TestData("DrawPrimitives Test", DrawPrimitivesTest.class, true));
-        testes.add(new TestData("EaseActions Test", EaseActionsTest.class, true));
+//        testes.add(new TestData("EaseActions Test", EaseActionsTest.class, true));
 //        testes.add(new TestData("Event Test", EventTest.class, true));
 //        testes.add(new TestData("Effects Test", EffectsTest.class, true));
 //        testes.add(new TestData("Effects Advanced Test", EffectsAdvancedTest.class, true));
@@ -81,22 +83,26 @@ public class TestMainScene
 //        testes.add(new TestData("XMLHttpRequest", XHRTestScene.class, true));
     }
 
-    public int getLayersCount() {
+    public int getLayersCount()
+    {
         return 1;
     }
 
-    public TestLayer getLayer(int idx) {
+    public TestLayer getLayer(int idx)
+    {
         return new TestMainLayer();
     }
 
-    static class TestData {
+    static class TestData
+    {
         String name;
 
         boolean ready;
 
         Class testLayer;
 
-        TestData(String name, Class testLayer, boolean ready) {
+        TestData(String name, Class testLayer, boolean ready)
+        {
             this.name = name;
             this.testLayer = testLayer;
             this.ready = ready;
@@ -104,10 +110,12 @@ public class TestMainScene
     }
 
     class TestMainLayer extends TestLayer
-            implements TestResource {
+        implements TestResource
+    {
         Menu menu;
 
-        public void onCreate() {
+        public void onCreate()
+        {
             setTouchMode(Touch.MODE_ONE_BY_ONE);
             setTouchEnabled(true);
 
@@ -115,8 +123,10 @@ public class TestMainScene
 
             MenuItemImage closeItem = MenuItemImage.create(s_pathClose, s_pathClose);
             closeItem.setPosition(winSize.getWidth() - 30, winSize.getHeight() - 30);
-            closeItem.setOnClickListener(new MenuItem.MenuItemListener() {
-                public void onClicked(MenuItem item) {
+            closeItem.setOnClickListener(new MenuItem.MenuItemListener()
+            {
+                public void onClicked(MenuItem item)
+                {
                     Director.getInstance().popScene();
                 }
             });
@@ -142,12 +152,15 @@ public class TestMainScene
                 menuItem.setAnchorPoint(0.5f, 0.5f);
                 menuItem.setPosition(winSize.getWidth() / 2, winSize.getHeight() - ((i + 1) * LINE_SPACE));
                 if (testData.ready) {
-                    menuItem.setOnClickListener(new MenuItem.MenuItemListener() {
-                        public void onClicked(MenuItem item) {
+                    menuItem.setOnClickListener(new MenuItem.MenuItemListener()
+                    {
+                        public void onClicked(MenuItem item)
+                        {
                             Scene scene = null;
                             try {
                                 scene = (Scene) testData.testLayer.newInstance();
-                            } catch (Exception e) {
+                            }
+                            catch (Exception e) {
                                 e.printStackTrace();
                             }
 
@@ -171,21 +184,24 @@ public class TestMainScene
             addChild(menu1);
         }
 
-        public boolean onTouchBegan(Touch touch, Event event) {
+        public boolean onTouchBegan(Touch touch, Event event)
+        {
             Vec2 p = touch.getLocation();
 
             System.out.println("onTouchBegan " + p.getX() + " , " + p.getY());
             return true;
         }
 
-        public void onTouchMoved(Touch touch, Event event) {
+        public void onTouchMoved(Touch touch, Event event)
+        {
             Vec2 delta = touch.getDelta();
             Vec2 p = touch.getLocation();
 //            System.out.println("p " + p.getX());
             this.moveMenu(delta);
         }
 
-        public void moveMenu(Vec2 delta) {
+        public void moveMenu(Vec2 delta)
+        {
             Vec2 current = this.menu.getPosition();
 
 //            System.out.println("delta " + delta.getY());

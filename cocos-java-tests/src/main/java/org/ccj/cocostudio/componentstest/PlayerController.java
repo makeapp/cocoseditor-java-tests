@@ -47,6 +47,8 @@ public class PlayerController
     {
         super.onExit();
         setTouchEnabled(false);
+
+
     }
 
     public void onUpdate(float delta)
@@ -62,7 +64,7 @@ public class PlayerController
         Sprite projectile = Sprite.create("components/Projectile.png", new Rect(0, 0, 20, 20));
         projectile.retain();
         this.getOwner().getParent().addChild(projectile, 1, 4);
-
+//        projectile.schedule();
         ProjectileController com = new ProjectileController();
         projectile.addComponent(com);
         com.move(location.getX(), location.getY());
